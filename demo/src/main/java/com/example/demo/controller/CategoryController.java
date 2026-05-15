@@ -13,7 +13,7 @@ import com.example.demo.domain.model.Category;
 import com.example.demo.domain.repository.CategoryRepository;
 
 @RestController
-@RequestMapping("/categories")
+@RequestMapping("/category")
 public class CategoryController {
 
     private final CategoryRepository repository;

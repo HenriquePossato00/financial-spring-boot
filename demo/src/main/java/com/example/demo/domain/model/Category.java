@@ -8,7 +8,7 @@ public class Category {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private long category_id;
 
     @Column
     private String name;
@@ -21,7 +21,7 @@ public class Category {
 
     // getters and setters
     public long getId() {
-        return id;
+        return category_id;
     }
 
     public String getName() {
